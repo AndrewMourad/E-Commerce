@@ -286,7 +286,7 @@ export default function CartComp() {
 
                 <button
                   onClick={() => {
-                    handleClearCart;
+                    handleClearCart();
                   }}
                   className="group flex items-center gap-2 text-sm text-gray-400 hover:text-red-500 transition-colors"
                 >
